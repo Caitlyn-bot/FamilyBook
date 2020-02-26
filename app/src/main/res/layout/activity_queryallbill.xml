@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:descendantFocusability="beforeDescendants"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:id="@+id/query_all_bill"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        tools:context=".QueryShowActivity" >
+        <TextView
+            android:id="@+id/show_bill_type"
+            android:text="账目类型"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/show_bill_money"
+            android:layout_width="wrap_content"
+            android:text="账目金额"
+            android:textSize="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/show_bill_type"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/show_bill_date"
+            android:layout_width="wrap_content"
+            android:text="账目日期"
+            android:textSize="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@id/show_bill_money"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>

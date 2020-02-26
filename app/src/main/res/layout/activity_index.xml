@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@mipmap/index"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="首页"
+        android:textSize="50sp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/goto_add_bill_btn"
+        android:layout_width="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="添加账目"
+        android:textSize="40sp"
+        android:textColor="#03A9F4"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/goto_QueryAllBill"
+        android:layout_width="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="查看账目"
+        android:textSize="40sp"
+        android:textColor="#03A9F4"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/goto_query_by_condition"
+        android:layout_width="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="按需查询"
+        android:textSize="40sp"
+        android:textColor="#03A9F4"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

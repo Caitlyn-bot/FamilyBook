@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@mipmap/info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="添加账目"
+        android:textSize="50sp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/select_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请选择账目类型"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/type_spin"
+            android:entries="@array/bill_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbarSize="25sp"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/select_type"/>
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/bill_money"
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:hint="请输入账目金额"
+        android:inputType="number"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/bill_date"
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:hint="请输入账目日期"
+        android:inputType="date"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/bill_remark"
+        android:layout_width="250dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="在此处添加备注"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/add_bill_btn"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="添加"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

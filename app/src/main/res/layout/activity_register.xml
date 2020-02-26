@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@mipmap/register"
+    android:padding="30dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="欢迎注册家庭记账本"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/r_username"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:hint="请输入用户名"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/r_password"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:inputType="text"
+        android:hint="请输入密码"
+        android:layout_height="wrap_content"/>
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/man_radio"
+            android:layout_width="wrap_content"
+            android:text="男"
+            android:checked="true"
+            android:layout_height="wrap_content">
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/woman_group"
+            android:layout_width="wrap_content"
+            android:text="女"
+            android:layout_height="wrap_content">
+
+        </RadioButton>
+    </RadioGroup>
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:text="注册"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+

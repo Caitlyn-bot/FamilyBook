@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bill_type">
+        <item>饮食</item>
+        <item>教育</item>
+        <item>购物</item>
+        <item>医疗</item>
+        <item>借贷</item>
+        <item>收入</item>
+        <item>其它</item>
+    </string-array>
+</resources>
